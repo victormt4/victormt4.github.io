@@ -1,84 +1,120 @@
 <!doctype html>
 <html lang="pt-br">
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="assets/css/styles.css" rel="stylesheet" type="text/css">
     <title>victormt4.github.io</title>
-    <style>
-        body {
-            background-color: #e9ecef;
-        }
-
-        .list-group-item {
-            background-color: #e9ecef;
-        }
-
-        .list-group li {
-            border: 0;
-        }
-
-        .container {
-            height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .jumbotron {
-            width: 100%;
-        }
-
-        .contato-container {
-            font-size: 1.5rem;
-        }
-
-        .contato-container a{
-            margin-right: .1em;
-        }
-    </style>
 </head>
 <body>
 <div class="container">
-
-    <div class="jumbotron">
-        <h1 class="display-4">victormt4.github.io</h1>
-        <p class="lead">Desenvolvedor de software</p>
-        <div class="contato-container">
-            <a href="https://github.com/victormt4" title="GitHub" rel="noreferrer noopener"><i class="fab fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/victor-mota-a01b8714a/" title="LinkedIn" rel="noreferrer noopener"><i class="fab fa-linkedin-in"></i></a>
+    <header>
+        <section class="credentials-container">
+            <div class="credentials-picture-container">
+                <img src="assets/images/profile.png" alt="Imagem de Perfil">
+            </div>
+            <div class="credentials-text-container">
+                <h1>Victor Mota</h1>
+                <h2>Desenvolvedor de Software</h2>
+                <h3><i class="fas fa-map-marker-alt icon"></i> Goiânia, Goiás</h3>
+            </div>
+        </section>
+        <section class="contact-info-container">
+            <a href="https://github.com/victormt4" title="GitHub" rel="noreferrer noopener" target="_blank"><i
+                    class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/victor-mota-a01b8714a/" title="LinkedIn" rel="noreferrer noopener" target="_blank"><i
+                    class="fab fa-linkedin-in"></i></a>
             <a href="mailto:victor.vmt@outlook.com" title="Email"><i class="far fa-envelope"></i></a>
-        </div>
-        <hr class="my-4">
-        <h2 class="mb-4">Meus Repositórios</h2>
-        <ul class="list-group list-group-flush">
-            <li class="list-group-item"><a href="https://github.com/victormt4/essay-analyzer" class="">Essay</a></li>
-            <li class="list-group-item"><a href="https://github.com/victormt4/BACKlog" class="">BACKlog</a></li>
-            <li class="list-group-item"><a href="https://github.com/victormt4/aluraframe" class="">aluraframe</a></li>
-            <li class="list-group-item"><a href="https://github.com/victormt4/loja_php" class="">loja_php</a></li>
-            <li class="list-group-item"><a href="https://github.com/victormt4/alura-typer" class="">alura-typer</a></li>
-            <li class="list-group-item"><a href="https://github.com/victormt4/CRUD_Java" class="">CRUD_Java</a></li>
-            <li class="list-group-item"><a href="https://github.com/victormt4?tab=repositories" class="">Todos
-                repositórios</a></li>
-    </div>
+        </section>
+    </header>
+    <main>
+        <section>
+            <h1>Resumo</h1>
+            <p class="reading-text">
+                Desenvolvedor de software especializado em desenhar arquiteturas e construir aplicações usando
+                JavaScript, Python e PHP. Com experiência em análise de
+                dados, visualização de dados, automatização de processos, arquitetura de software, SaaS, UI/UX,
+                integrações.
+            </p>
+        </section>
+        <section>
+            <h1>Skills</h1>
+            <div class="skill-panels-container">
+                <div class="skill-panel">
+                    <div class="skill-panel-icon-container"><i class="fab fa-js"></i></div>
+                    <span class="skill-panel-text">JavaScript</span>
+                </div>
+                <div class="skill-panel">
+                    <div class="skill-panel-icon-container"><i class="fab fa-python"></i></div>
+                    <span class="skill-panel-text">Python</span>
+                </div>
+                <div class="skill-panel">
+                    <div class="skill-panel-icon-container"><i class="fab fa-php"></i></div>
+                    <span class="skill-panel-text">PHP</span>
+                </div>
+                <div class="skill-panel">
+                    <div class="skill-panel-icon-container"><i class="fab fa-html5"></i></div>
+                    <span class="skill-panel-text">HTML5</span>
+                </div>
+                <div class="skill-panel">
+                    <div class="skill-panel-icon-container"><i class="fab fa-css3-alt"></i></div>
+                    <span class="skill-panel-text">CSS3</span>
+                </div>
+                <div class="skill-panel">
+                    <div class="skill-panel-icon-container"><i class="fab fa-react"></i></div>
+                    <span class="skill-panel-text">React</span>
+                </div>
+                <div class="skill-panel">
+                    <div class="skill-panel-icon-container"><i class="fab fa-laravel"></i></div>
+                    <span class="skill-panel-text">Laravel</span>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h1>Experiência</h1>
+            <div class="work-exp-info-container">
+                <span class="secondary-text">Nov/2019 - Até o momento</span>
+                <h2>Desenvolvedor de Software</h2>
+                <h3><i class="far fa-building"></i> Geoinova</h3>
+                <p class="reading-text">
+                    Responsável por desenvolver uma aplicação web para visualização e monitoramento de áreas utilizando
+                    imagens de satélite e/ou drones. Trabalhei integrando servidores de imagem com bibliotecas de mapas
+                    utilizando JavaScript. Além disso, trabalhei com análise de dados utilizando bibliotecas de
+                    manipulação geoespacial utilizando JavaScript, PHP e SQL.
+                </p>
+            </div>
+            <div class="work-exp-info-container">
+                <span class="secondary-text">Mai/2018 - Nov/2019</span>
+                <h2>Desenvolvedor de Software</h2>
+                <h3><i class="far fa-building"></i> Resultys</h3>
+                <p class="reading-text">
+                    Responsável por manter e desenvolver uma plataforma de geração de leads qualificados e inteligência
+                    de mercado. Trabalhei com desenvolvimento de interfaces interativas, automatização de processos e
+                    análise de dados, utilizando linguagens como PHP, JavaScript e SQL.
+                </p>
+            </div>
+        </section>
+        <section>
+            <h1>Formação</h1>
+            <div class="work-exp-info-container">
+                <span class="secondary-text">Jan/2011 - Dez/2014</span>
+                <h2>Técnico em Programação de Computadores</h2>
+                <h3><i class="fas fa-graduation-cap"></i> Instituto Federal de Goiás</h3>
+            </div>
+            <div class="work-exp-info-container">
+                <span class="secondary-text">Jan/2015 - Dez/2020</span>
+                <h2>Bacharel em Sistemas de Informação</h2>
+                <h3><i class="fas fa-graduation-cap"></i> Universidade Federal de Goiás</h3>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
 </div>
-</div>
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
 <script src="https://kit.fontawesome.com/2deb69e640.js" crossorigin="anonymous"></script>
 </body>
 </html>
