@@ -38,6 +38,10 @@ main section h1 {
     font-weight: 700;
 }
 
+main section:last-child {
+    margin-bottom: 5em;
+}
+
 .container {
     display: flex;
     flex-flow: column;
